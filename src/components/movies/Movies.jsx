@@ -4,6 +4,7 @@ import './movies.css'
 import axios from '../../axios'
 import {API_KEY,imageUrl} from '../../constants'
 import YouTube from 'react-youtube'
+import 'bootstrap/dist/css/bootstrap.css';
 function Movies(props) {
     const [poster,setPoster] = useState([]);
     const [key,setKey]=useState();

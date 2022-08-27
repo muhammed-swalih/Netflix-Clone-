@@ -17,7 +17,6 @@ function WelcomePage() {
         }
     },[])
   return (
-
     <div className='welcome-page'>
     {
         keepLog ? (
