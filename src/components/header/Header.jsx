@@ -15,7 +15,7 @@ function Header() {
   const history = useNavigate();
 
   const navBarTransition = ()=>{
-    if(window.scrollY > 100){
+    if(window.scrollY > 50){
       setNav (true)
     }else {
       setNav(false)
