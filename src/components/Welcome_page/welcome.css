@@ -390,7 +390,7 @@ body {
     font-weight: 300;
     margin-left: 650px;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:481px) {
     .section-four h2{
         font-size: 19px;
         margin-left: 35px;
