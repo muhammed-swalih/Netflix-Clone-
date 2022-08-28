@@ -6,7 +6,6 @@ import {API_KEY,imageUrl} from '../../constants'
 import SignIn from '../signIn/SignIn'
 import LoginScreen from '../../screens/LoginScreen'
 import {useNavigate} from 'react-router-dom'
-
 function Header() {
 
 
@@ -16,7 +15,7 @@ function Header() {
   const history = useNavigate();
 
   const navBarTransition = ()=>{
-    if(window.scrollY > 50){
+    if(window.scrollY > 100){
       setNav (true)
     }else {
       setNav(false)

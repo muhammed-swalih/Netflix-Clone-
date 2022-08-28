@@ -14,6 +14,13 @@
     color: white;
     
 }
+@media screen and (max-width : 420px) {
+    .signin_screen {
+        background: #222;
+        width: 100%;
+        height: 100vh;
+    }
+}
 
 
 .signup_header {
@@ -22,6 +29,12 @@
 }
 .signup_logo {
     width: 170px;
+}
+@media screen and (max-width : 420px) {
+    .signup_logo {
+        width: 100px;
+        margin-left: -30px;
+    }
 }
 .signin_section {
     display: grid;
@@ -32,6 +45,15 @@
     height: 550px;
     margin-left: 450px;
     border-radius: 5px;
+}
+@media screen and (max-width : 420px) {
+    .signin_section {
+        margin-left: -20px;
+        width: 450px;
+        height: 550px;
+        background: none;
+        margin-top: 120px;
+    }
 }
 .signin_section h1 {
     font-size: 35px;
@@ -44,6 +66,13 @@
     border-radius: 2px;
     border: none;
     outline: none;
+}
+@media screen and (max-width : 420px) {
+    .signin_section input {
+        background-color: #222;
+        color: white;
+        font-size: 16px;
+    }
 }
 .email_inp {
     margin-top: -90px;
@@ -75,6 +104,13 @@
     color: grey;
     font-family: sans-serif;
 }
+@media screen and (max-width : 420px) {
+    .new_to_netflix {
+        left: 55px;
+        top: 580px;
+        font-size: 18px;
+    }
+}
 .new_to_netflix span{
     color: white;
     cursor: pointer;
@@ -90,4 +126,10 @@
     left: 525px;
     color: grey;
     font-family: sans-serif;
+}
+@media screen and (max-width : 420px) {
+    .ensurence {
+        left: 55px;
+        top: 610px;
+    }
 }
