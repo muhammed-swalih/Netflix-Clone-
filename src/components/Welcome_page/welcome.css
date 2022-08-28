@@ -16,7 +16,7 @@ body {
    background-color: #222;
    
 }
-@media screen and (max-width : 420px) {
+@media screen and (max-width : 480px) {
     .welcome-page {
       height: 510px;
       width: 100%;
@@ -41,7 +41,7 @@ body {
     float: left;
     margin-top: -2px;
 }
-@media screen and (max-width : 420px) {
+@media screen and (max-width : 480px) {
     .netflix-logo {
         margin-left: -40px;
     }
@@ -67,7 +67,7 @@ body {
     cursor: pointer;
     transition: 0.3s;
 }
-@media screen and (max-width : 420px) {
+@media screen and (max-width : 480px) {
     .sign-in {
         margin-right: -20px;
     }
@@ -100,7 +100,7 @@ body {
     max-width: 650px;
     
 }
- @media screen and (max-width : 420px) {
+ @media screen and (max-width : 480px) {
     .intro h1 {
         font-size: 35px;
         margin-top: -35px;
@@ -113,7 +113,7 @@ body {
     font-weight: 400;
     
 }
-@media screen and (max-width : 420px) {
+@media screen and (max-width : 480px) {
     .intro h3 span {
         margin-left: 85px;
     }
@@ -135,7 +135,7 @@ body {
     padding-left: 10px;
     color: rgba(0, 0, 0, .5);
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .intro-input {
         width: 250px;
         margin-left: -40px;
@@ -153,7 +153,7 @@ body {
     transition: 0.3s;
 
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .get-started {
         width: 150px;
         margin-left: -30px;
@@ -173,7 +173,7 @@ body {
     padding-left: 125px;
     padding-top: 150px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-one {
         width: 100%;
         margin-top: -390px;
@@ -184,7 +184,7 @@ body {
     font-size: 52px;
     max-width: 450px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-one h1{
        font-size: 28px;
         margin-left: -130px;
@@ -202,7 +202,7 @@ body {
     font-weight: 300;
     max-width: 500px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-one h2{
         font-size: 19px;
         margin-left: -90px;
@@ -218,7 +218,7 @@ body {
     margin-left: 630px;
     width: 500px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-one img {
         margin-left: -110px;
         width: 390px;
@@ -234,7 +234,7 @@ body {
     font-family: sans-serif;
     padding-top: 150px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-two {
         width: 100%;
         display: grid;
@@ -244,7 +244,7 @@ body {
     font-size: 52px;
     margin-left: 600px;   
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-two h1{
        font-size: 28px;
         margin-left: 40px;
@@ -263,8 +263,9 @@ body {
     margin-top: 20px;
     font-weight: 300;
     margin-left: 600px;
+    max-width: 400px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-two h2{
         font-size: 19px;
         margin-left: 42px;
@@ -281,7 +282,7 @@ body {
     margin-left: 50px;
     width: 500px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-two img{
         font-size: 19px;
         margin-left: 30px;
@@ -302,7 +303,7 @@ body {
     padding-top: 150px;
     padding-left: 125px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-three {
         width: 100%;
         display: grid;
@@ -311,7 +312,7 @@ body {
 .section-three h1 {
     font-size: 52px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-three h1{
        font-size: 28px;
         margin-left: -40px;
@@ -326,8 +327,9 @@ body {
     font-size: 26px;
     margin-top: 20px;
     font-weight: 300;
+    max-width: 400px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-three h2{
         font-size: 19px;
         margin-left: -80px;
@@ -336,6 +338,7 @@ body {
     }
     .section-three h2 span {
         margin-left: 10px;
+        
     }
  
 }
@@ -344,7 +347,7 @@ body {
     margin-left: 600px;
     width: 550px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-three img {
         margin-left: -110px;
         width: 390px;
@@ -360,7 +363,7 @@ body {
     font-family: sans-serif;
     padding-top: 150px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-four {
         width: 100%;
         display: grid;
@@ -370,7 +373,7 @@ body {
     font-size: 52px;
     margin-left: 650px; 
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-four h1{
        font-size: 28px;
         margin-left: 25px;
@@ -387,7 +390,7 @@ body {
     font-weight: 300;
     margin-left: 650px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-four h2{
         font-size: 19px;
         margin-left: 35px;
@@ -400,11 +403,11 @@ body {
   
 }
 .section-four img {
-    margin-top: -310px;
+    margin-top: -280px;
     margin-left: 50px;
     width: 500px;
 }
-@media screen and (max-width:420px) {
+@media screen and (max-width:480px) {
     .section-four img {
         margin-left: 20px;
         width: 390px;

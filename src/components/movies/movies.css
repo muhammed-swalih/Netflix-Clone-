@@ -18,7 +18,7 @@ body {
     transition: 0.1s;
     background-color: #111;
 }
- @media screen and (max-width : 420px){
+ @media screen and (max-width : 480px){
     .movie{
         margin-top: 420px;
         width: 210px;
@@ -36,7 +36,7 @@ body {
     font-size: larger;
     
 }
- @media screen and (max-width : 420px){
+ @media screen and (max-width : 480px){
     .type {
         top: 385px;
     }
@@ -68,7 +68,7 @@ body {
     margin-left: 10px;
     transition: 0.2s;
 }
- @media screen and (max-width:420px){
+ @media screen and (max-width:480px){
     .small-card{
         margin-top: -2px;
         
@@ -83,7 +83,7 @@ body {
     color: white;
     margin-left:30px ;
 }
- @media screen and (max-width:420px){
+ @media screen and (max-width:480px){
     .action-title {
         margin-top: -5px;
     }
